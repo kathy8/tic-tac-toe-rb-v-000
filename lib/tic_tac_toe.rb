@@ -98,7 +98,7 @@ board.select{|i| i =="X" || i == "O"}.length == 9
 
   def winner(board)
   if won?(board) != false
-  board[won?(board)[0]] #returns the first element in the WIN_COMBINATIONS array as the index for the board
+  board[won?(board)[0]] 
   end
   end
 
